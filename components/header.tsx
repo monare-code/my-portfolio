@@ -56,11 +56,42 @@ export default function Header() {
             }`}
         >
             <div className="container mx-auto px-4 py-2 md:py-4">
-                {/* Mobile View: Only show "MS" */}
-                <div className="flex items-center justify-center h-12 md:h-20 md:hidden">
-                    <span className="text-xl font-medium text-white font-['League_Spartan']">monare selahle</span>
-                </div>
+                {/* Mobile View: Show name with labeled buttons */}
+                <div className="flex flex-wrap items-center justify-between h-auto py-2 md:h-20 md:hidden">
+                    <span className="text-xl font-medium text-white font-['League_Spartan'] mb-2 sm:mb-0">monare selahle</span>
 
+                    {/* Mobile buttons with labels */}
+                    <div className="flex items-center space-x-3 mt-1">
+                        {/* Email copy button */}
+                        <button
+                            onClick={copyToClipboard}
+                            className="flex items-center px-3 py-2 bg-white rounded-full shadow-md transition-all duration-300 hover:shadow-purple-500/50 hover:shadow-lg"
+                            aria-label="Copy email"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                            <span className="text-sm font-bold">Email</span>
+                        </button>
+
+                        {/* CV download button */}
+                        <a
+                            href="/myresume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center px-3 py-2 bg-white rounded-full shadow-md transition-all duration-300 hover:shadow-blue-500/50 hover:shadow-lg"
+                            aria-label="Download CV"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            <span className="text-sm font-bold">CV</span>
+                        </a>
+                    </div>
+                </div>
 
                 {/* Desktop View: Full header */}
                 <div className="hidden md:flex items-center justify-between h-20">
