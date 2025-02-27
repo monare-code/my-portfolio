@@ -5,6 +5,7 @@ import Skills from '@/components/skills'
 import Projects from '@/components/projects'
 import Contact from '@/components/contact'
 import AboutMe from "@/components/aboutme";
+import { Toaster } from 'sonner';
 
 export const metadata: Metadata = {
     title: 'MS - Computer Science Portfolio',
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
 export default function Home() {
     return (
         <>
+            <Toaster position="bottom-right" /> {/* You can customize position */}
             <Header/>
             <main className="relative min-h-screen pt-16">
                 {/* Background Effect */}

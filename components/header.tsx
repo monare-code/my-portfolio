@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import {toast} from "sonner";
 
 export default function Header() {
     const [isScrolled, setIsScrolled] = useState(false)
@@ -36,8 +37,14 @@ export default function Header() {
     const email = "mc.selahle@gmail.com"
 
     const copyToClipboard = () => {
-        navigator.clipboard.writeText(email)
-        alert('Email copied to clipboard!')
+        navigator.clipboard.writeText(email).then(() => {
+            toast.success("Email copied to clipboard!", {
+                description: "You can now paste it anywhere.",
+            })
+        }).catch(err => {
+            console.error('Failed to copy: ', err);
+            toast.error("Failed to copy email");
+        });
     }
 
     return (
