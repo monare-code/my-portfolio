@@ -77,15 +77,50 @@ export default function AboutMe() {
                     <div className="w-16 h-1 bg-gradient-to-r from-pink-500 to-purple-500 mt-2 mb-4"></div>
                     <div className="prose prose-invert max-w-none">
                         <p className="text-gray-300 space-y-6">
-                            I am Monare, a passionate and driven final-year Computer Science student with a keen interest in software development, artificial intelligence, and machine learning. Throughout my academic journey, I have honed my skills in various programming languages and technologies, with a particular focus on Java, C#, TypeScript, and Python. My educational background has provided me with a solid foundation in computer science principles, algorithms, and data structures, which I continuously apply to solve complex problems.
+                            Hi again there :), I'm Monare! My journey into the world of technology started at a young age when I became
+                            fascinated with computers, apps, and how software can shape the way we live, work, and
+                            connect. Inspired by my brother [slightly, lol], <a href="https://tebogoselahle.co.za" target="_blank"
+                                                                className="text-blue-400 hover:underline">Tebogo
+                            Selahle</a>, a software engineer, I developed a deep appreciation for problem-solving,
+                            innovation, and the endless possibilities that come with writing code.
                         </p>
                         <p className="text-gray-300 mt-6">
-                            Over the past few years, I have had the privilege of gaining hands-on experience through internships and projects that have allowed me to collaborate with talented professionals, work on real-world applications, and enhance my technical skills. I am particularly passionate about building scalable and efficient software solutions, optimizing system performance, and leveraging the power of data to create impactful applications.
+                            Now in my final year as a Computer Science student, I have spent years sharpening my
+                            technical skills and working on projects that transform ideas into functional, efficient,
+                            and impactful solutions. My academic background has given me a strong foundation in
+                            algorithms, data structures, and software development methodologies, which I continuously
+                            apply to real-world scenarios. I am particularly passionate about artificial intelligence,
+                            machine learning, and building scalable, high-performance applications that push the
+                            boundaries of what technology can achieve.
                         </p>
                         <p className="text-gray-300 mt-6">
-                            In addition to my technical abilities, I am a strong advocate for teamwork and collaboration. I believe in the power of collective problem-solving and enjoy working in dynamic, fast-paced environments where innovation thrives. I have always been eager to learn new technologies and methodologies, and I approach every project with a growth mindset.
+                            Over the past few years, I have gained valuable hands-on experience through internships,
+                            personal projects, and collaborations with talented individuals. These experiences have
+                            allowed me to work on real-world applications, optimize system performance, and explore
+                            emerging technologies. I take pride in my ability to break down complex problems, design
+                            creative solutions, and adapt to new challenges in a fast-paced environment.
+                        </p>
+                        <p className="text-gray-300 mt-6">
+                            Beyond my technical expertise, I strongly believe in the power of teamwork, communication,
+                            and continuous learning. I thrive in collaborative settings where ideas are shared,
+                            innovation is encouraged, and problem-solving is a collective effort. Whether working on a
+                            solo project or as part of a team, I bring a growth mindset and a strong drive to improve,
+                            experiment, and push the limits of what’s possible.
+                        </p>
+                        <p className="text-gray-300 mt-6">
+                            When I'm not coding, I enjoy exploring new technologies, keeping up with the latest industry
+                            trends, and engaging in discussions about the future of software development. I am always
+                            open to new opportunities that allow me to expand my knowledge, contribute to meaningful
+                            projects, and make a positive impact in the tech world.
+                        </p>
+                        <p className="text-gray-300 mt-6">
+                            My ultimate goal is to evolve from a software developer into a product manager, where I can
+                            combine my technical expertise with strategic thinking to build products that solve
+                            real-world problems. With a passion for innovation and a drive to learn, I am excited for
+                            the journey ahead in the ever-evolving landscape of technology.
                         </p>
                     </div>
+
                 </div>
             </div>
         </section>

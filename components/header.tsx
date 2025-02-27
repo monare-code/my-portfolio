@@ -75,7 +75,7 @@ export default function Header() {
                         <div className="flex items-center space-x-4 bg-gray-100 px-1.5 py-3.5 rounded-full shadow-md">
                             <div>
                                 <a
-                                    href="/path-to-your-cv.pdf"
+                                    href="/myresume.pdf"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="px-10 py-3 text-base font-bold bg-white rounded-full shadow-md transition-all duration-300

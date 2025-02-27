@@ -29,13 +29,17 @@ export default function Introduction() {
                             more to come."
                         </p>
                         <div className="flex justify-center md:justify-start space-x-4">
-                            <Button variant="outline" size="icon">
-                                <GithubIcon className="h-6 w-6" />
-                                <span className="sr-only">GitHub</span>
+                            <Button variant="outline" size="icon" asChild>
+                                <a href="https://github.com/monare-code" target="_blank" rel="noopener noreferrer">
+                                    <GithubIcon className="h-6 w-6" />
+                                    <span className="sr-only">GitHub</span>
+                                </a>
                             </Button>
-                            <Button variant="outline" size="icon">
-                                <LinkedinIcon className="h-6 w-6" />
-                                <span className="sr-only">LinkedIn</span>
+                            <Button variant="outline" size="icon" asChild>
+                                <a href="https://www.linkedin.com/in/monare-selahle" target="_blank" rel="noopener noreferrer">
+                                    <LinkedinIcon className="h-6 w-6" />
+                                    <span className="sr-only">LinkedIn</span>
+                                </a>
                             </Button>
                         </div>
                     </div>
