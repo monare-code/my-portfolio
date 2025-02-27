@@ -26,7 +26,7 @@ export default function Contact() {
                         <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 mb-4">
                             Message Sent!
                         </div>
-                        <p className="text-white text-center">Thanks for reaching out. I'll get back to you as soon as possible.</p>
+                        <p className="text-white text-center">Thanks for reaching out. I&#39;ll get back to you as soon as possible.</p>
                     </CardContent>
                 </Card>
             </div>
@@ -41,7 +41,7 @@ export default function Contact() {
                     Contact Me
                 </h2>
                 <div className="w-16 h-[2px] bg-gradient-to-r from-purple-500 to-pink-500 mx-auto mt-2 mb-6"></div>
-                <p className="text-gray-400 mt-2">Let's build something amazing together!</p>
+                <p className="text-gray-400 mt-2">Let&#39;s build something amazing together!</p>
             </div>
 
             {/* Contact Card */}
@@ -54,9 +54,9 @@ export default function Contact() {
                         opacity-0 hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
 
                     <CardHeader>
-                        <CardTitle className="text-white text-2xl">Let's Talk</CardTitle>
+                        <CardTitle className="text-white text-2xl">Let&#39;s Talk</CardTitle>
                         <CardDescription className="text-gray-300">
-                            Fill out the form and I'll get back to you as soon as possible.
+                            Fill out the form and I&#39;ll get back to you as soon as possible.
                         </CardDescription>
                     </CardHeader>
 

@@ -20,13 +20,13 @@ export default function Introduction() {
 
                         {/*description*/}
                         <p className="max-w-6xl text-white mx-auto mb-8 font-mono text-base md:text-xl">
-                            "I am a final-year Bachelor of Science student at Wits University, majoring in Computer Science,
+                            &#34;I am a final-year Bachelor of Science student at Wits University, majoring in Computer Science,
                             Computer Applications, and Information Systems.
                             Throughout my studies, I have developed a strong passion for software development, system analysis, the software development life cycle (SDLC),
                             mobile and web development, and machine learning.
                             As a student, I am continually learning and improving my skills, and I look forward to exploring even more in the field :).
-                            There's still much
-                            more to come."
+                            There&#39;s still much
+                            more to come.&#34;
                         </p>
                         <div className="flex justify-center md:justify-start space-x-4">
                             <Button variant="outline" size="icon" asChild>

@@ -77,7 +77,7 @@ export default function AboutMe() {
                     <div className="w-16 h-1 bg-gradient-to-r from-pink-500 to-purple-500 mt-2 mb-4"></div>
                     <div className="prose prose-invert max-w-none">
                         <p className="text-gray-300 space-y-6">
-                            Hi again there :), I'm Monare! My journey into the world of technology started at a young age when I became
+                            Hi again there :), I&#39;m Monare! My journey into the world of technology started at a young age when I became
                             fascinated with computers, apps, and how software can shape the way we live, work, and
                             connect. Inspired by my brother [slightly, lol], <a href="https://tebogoselahle.co.za" target="_blank"
                                                                 className="text-blue-400 hover:underline">Tebogo
@@ -108,7 +108,7 @@ export default function AboutMe() {
                             experiment, and push the limits of what’s possible.
                         </p>
                         <p className="text-gray-300 mt-6">
-                            When I'm not coding, I enjoy exploring new technologies, keeping up with the latest industry
+                            When I&#39;m not coding, I enjoy exploring new technologies, keeping up with the latest industry
                             trends, and engaging in discussions about the future of software development. I am always
                             open to new opportunities that allow me to expand my knowledge, contribute to meaningful
                             projects, and make a positive impact in the tech world.
